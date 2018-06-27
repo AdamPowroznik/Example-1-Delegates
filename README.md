@@ -17,6 +17,9 @@ Why this app even exists?
 ---------------
 This repository contains an example of using delegates.
 
+About this example:
+---------------------------
+
 A delegate is a pointer to set of methods.
 
 There are two kinds of delegates:
@@ -24,3 +27,5 @@ There are two kinds of delegates:
 2. `func()` which contains functions which returns a value 
 
 Every kind (`action()` and `func()`) has many overloads, we can put up to 16 arguments in it.
+
+You can alse write your own delegate by using modyfier `delegate`.
